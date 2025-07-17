@@ -9,13 +9,12 @@ Roll dice, hold your favorites, and race to make all dice match! A fun and simpl
 ---
 
 📸 **Screenshots**
-
-| ![Tenzies screenshot](<img width="1919" height="879" alt="Screenshot 2025-07-18 003934" src="https://github.com/user-attachments/assets/b23b8d99-dca5-458e-930b-8b3475adf7f8" />
-) 
+ ![Tenzies screenshot](<img width="1919" height="879" alt="Screenshot 2025-07-18 003934" src="https://github.com/user-attachments/assets/b23b8d99-dca5-458e-930b-8b3475adf7f8" />) 
 
 ---
 
 🧰 **Features**
+
 🎲 Roll 10 dice at once  
 ✋ Click dice to hold and keep their value  
 🔄 Keep rolling until all dice match  
