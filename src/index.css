@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+}
+
+#root {
+  background-color: #0B2434;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #F5F5F5;
+  max-width: 400px;
+  height: 320px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-size: 25px;
+  margin: 0;
+}
+
+.instructions {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
+  font-size: 13px;
+  color: #4A4E74;
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Karla", sans-serif;
+}
+
+.dice-container button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 15%);
+  color: #2B283A;
+}
+
+.roll-dice {
+  background-color: #5035FF;
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 36px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+button.held-dice {
+  background-color: #59E391;
+}
+
+.sr-only {  
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+  
+}
